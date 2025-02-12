@@ -1,0 +1,28 @@
+<style>
+        .glow {
+            box-shadow: 0 0 25px rgba(255, 105, 180, 1);
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes glow {
+            from { box-shadow: 0 0 15px rgba(255, 105, 180, 0.8); }
+            to { box-shadow: 0 0 30px rgba(255, 105, 180, 1); }
+        }
+        .flower-bg {
+            background: url('https://raw.githubusercontent.com/naveen-kumawat/Flower/main/flower.png') no-repeat center center;
+            background-size: cover;
+        }
+        .hidden { display: none; }
+        
+        /* No button shakes and moves away */
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(5px); }
+        }
+        .moving-button:hover {
+            position: absolute;
+            animation: shake 0.3s infinite;
+        }
+    </style>
