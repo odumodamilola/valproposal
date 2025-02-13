@@ -14,20 +14,24 @@ function showPrompt() {
     document.getElementById('loveMessage').innerHTML = `
         <h2 class='text-2xl font-bold text-pink-600'>Heyyy beautiful!</h2>
         <p class='text-lg mt-2'>${bfName},</p>
-        <pre class='mt-4'>Ejemi monri😍😅… did I tell you the first day I set my eyes on you, you looked like someone I know? Someone really close but I couldn’t just lay my thoughts on when, how or where I met you. It’s obvious the heart met before the eye😌. Could this be a sign we are met to be????
+        <p class='mt-4'>Ejemi monri😍😅… did I tell you the first day I set my eyes on you, you looked like someone I know? Someone really close but I couldn’t just lay my thoughts on when, how or where I met you. It’s obvious the heart met before the eye😌. Could this be a sign we are met to be????
 
-        You’ve always been perfect for me, even when you said you were not. I’ve never loved anyone the way I love you and nothing will ever mean more to me than you do. 
-        Let’s write a love story that reminds the world that miracles still exist. A story where “ forever “ isn’t just a promise but a choice we make every single day.
 
-        Where every storm we face only strengthens the roots we’ve planted and every sunrise feels brighter because we’re witnessing it together.
+        
+
+        
+</p>
+<p>You’ve always been perfect for me, even when you said you were not. I’ve never loved anyone the way I love you and nothing will ever mean more to me than you do. 
+        Let’s write a love story that reminds the world that miracles still exist. A story where “ forever “ isn’t just a promise but a choice we make every single day.</p>
+        
+        <p>Where every storm we face only strengthens the roots we’ve planted and every sunrise feels brighter because we’re witnessing it together.
         You know why I love holding your hands??
         Your touch is my greatest comfort, a gentle reminder that I am safe and cherished in your arms, and I’m always hoping to feel it more. 
 
         No words could ever truly capture how much you mean to me. I love you to the moon and back 😘.
 
-
-</pre>
-        <p class='mt-4 font-bold'>Ehn mmm darling … I have a request to make..<br>Do you want to see what it is?</p>
+</p>
+<p class='mt-4 font-bold'>Ehn mmm darling … I have a request to make..<br>Do you want to see what it is?</p>
     `;
 }
 
