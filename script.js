@@ -59,6 +59,7 @@ function playfullyDeny() {
     const maxWidth = window.innerWidth - noButton.offsetWidth;
     const maxHeight = window.innerHeight - noButton.offsetHeight;
     
+    
     noButton.style.position = 'absolute';
     noButton.style.left = Math.random() * maxWidth + 'px';
     noButton.style.top = Math.random() * maxHeight + 'px';
