@@ -1,28 +1,46 @@
-<style>
-        .glow {
-            box-shadow: 0 0 25px rgba(255, 105, 180, 1);
-            animation: glow 1.5s infinite alternate;
-        }
-        @keyframes glow {
-            from { box-shadow: 0 0 15px rgba(255, 105, 180, 0.8); }
-            to { box-shadow: 0 0 30px rgba(255, 105, 180, 1); }
-        }
-        .flower-bg {
-            background: url('https://raw.githubusercontent.com/naveen-kumawat/Flower/main/flower.png') no-repeat center center;
-            background-size: cover;
-        }
-        .hidden { display: none; }
-        
-        /* No button shakes and moves away */
-        @keyframes shake {
-            0% { transform: translateX(0); }
-            25% { transform: translateX(-5px); }
-            50% { transform: translateX(5px); }
-            75% { transform: translateX(-5px); }
-            100% { transform: translateX(5px); }
-        }
-        .moving-button:hover {
-            position: absolute;
-            animation: shake 0.3s infinite;
-        }
-    </style>
+
+.moving-button {
+    animation: shake 0.5s infinite;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+}
+
+.fade-out {
+    animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; display: none; }
+}
+
+.video-container {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.video-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
